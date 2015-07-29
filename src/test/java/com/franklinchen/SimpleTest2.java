@@ -13,12 +13,11 @@ public class SimpleTest2 {
 
     @Test
     public void minusWorks() {
-        assertEquals(5, 2+2);
+        assertEquals(3, 5-2);
     }
 
     @Test
-    @Ignore
     public void multiplicationWorks() {
-        assertEquals(5, 2+2);
+        assertEquals(4, 2*2);
     }
 }
