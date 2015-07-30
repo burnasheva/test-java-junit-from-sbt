@@ -6,20 +6,17 @@ import static org.junit.Assert.assertEquals;
 
 public class NameThirdTest {
     @Test
-    @Ignore
     public void addSome() {
-        assertEquals(4, 2+2);
+        assertEquals(5, 2+2);
     }
 
     @Test
-    @Ignore
     public void minusSome() {
-        assertEquals(3, 5-2);
+        assertEquals(5, 5-2);
     }
 
     @Test
-    @Ignore
     public void mulipleSome() {
-        assertEquals(4, 2*2);
+        assertEquals(5, 2*2);
     }
 }

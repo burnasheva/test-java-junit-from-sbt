@@ -6,20 +6,17 @@ import static org.junit.Assert.assertEquals;
 
 public class SimpleTest {
     @Test
-    @Ignore
     public void additionWorks() {
-        assertEquals(4, 2+2);
+        assertEquals(5, 2+2);
     }
 
     @Test
-    @Ignore
     public void minusWorks() {
-        assertEquals(3, 5-2);
+        assertEquals(5, 5-2);
     }
 
     @Test
-    @Ignore
     public void multiplicationWorks() {
-        assertEquals(4, 2*2);
+        assertEquals(5, 2*2);
     }
 }
