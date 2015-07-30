@@ -11,6 +11,11 @@ public class NameThirdTest {
     }
 
     @Test
+    public void addSome1() {
+        assertEquals(4, 2+2);
+    }
+
+    @Test
     public void minusSome() {
         assertEquals(3, 5-2);
     }
