@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.junit.Ignore;
 import static org.junit.Assert.assertEquals;
 
-public class NameThirdTest {
+public class NameThird {
     @Test
     public void addSome() {
         assertEquals(4, 2+2);
